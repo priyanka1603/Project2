@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="6" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-13T22:52:04 IST" name="Suite" finished-at="2021-06-13T22:52:08 IST" duration-ms="4892">
+    <groups>
+      <group name="site">
+        <method signature="Grouping.test1()[pri:-1, instance:com.maven1.org.Grouping@6bedbc4d]" name="test1" class="com.maven1.org.Grouping"/>
+      </group> <!-- site -->
+      <group name="User">
+        <method signature="Grouping.test2()[pri:0, instance:com.maven1.org.Grouping@6bedbc4d]" name="test2" class="com.maven1.org.Grouping"/>
+      </group> <!-- User -->
+    </groups>
+    <test started-at="2021-06-13T22:52:04 IST" name="Test" finished-at="2021-06-13T22:52:08 IST" duration-ms="4892">
+      <class name="com.maven1.org.Grouping">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.maven1.org.Grouping@6bedbc4d]" started-at="2021-06-13T22:51:57 IST" name="beforeSuite" finished-at="2021-06-13T22:52:04 IST" duration-ms="6296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.maven1.org.Grouping@6bedbc4d]" started-at="2021-06-13T22:52:04 IST" name="beforeTest" finished-at="2021-06-13T22:52:07 IST" duration-ms="3669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="test1()[pri:-1, instance:com.maven1.org.Grouping@6bedbc4d]" started-at="2021-06-13T22:52:07 IST" name="test1" finished-at="2021-06-13T22:52:07 IST" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:com.maven1.org.Grouping@6bedbc4d]" started-at="2021-06-13T22:52:08 IST" name="test2" finished-at="2021-06-13T22:52:08 IST" duration-ms="891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- com.maven1.org.Grouping -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
